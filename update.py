@@ -1,3 +1,4 @@
+import hashlib
 import os
 import sys
 import time
@@ -14,7 +15,6 @@ OUTPUT_FILE = "colo-colo.ics"
 
 CHILE_TZ = ZoneInfo("America/Santiago")
 
-# Posibles competiciones de Colo-Colo.
 LEAGUES = [
     "chi.1",
     "chi.copa_chile",
@@ -23,6 +23,15 @@ LEAGUES = [
     "conmebol.libertadores",
     "conmebol.sudamericana",
 ]
+
+NOMBRES_COMPETENCIAS = {
+    "chi.1": "Liga de Primera de Chile",
+    "chi.copa_chile": "Copa Chile",
+    "chi.copa_chi": "Copa de la Liga de Chile",
+    "chi.copa": "Copa Chile",
+    "conmebol.libertadores": "Copa Libertadores",
+    "conmebol.sudamericana": "Copa Sudamericana",
+}
 
 HEADERS = {
     "User-Agent": (
@@ -34,7 +43,7 @@ HEADERS = {
 
 
 def obtener_json(url):
-    """Consulta una dirección de ESPN y devuelve su contenido JSON."""
+    """Consulta ESPN y devuelve el contenido JSON."""
     respuesta = requests.get(
         url,
         headers=HEADERS,
@@ -50,22 +59,24 @@ def es_partido_colo_colo(partido):
     for competencia in partido.get("competitions", []):
         for competidor in competencia.get("competitors", []):
             equipo = competidor.get("team", {})
-            equipo_id = str(equipo.get("id", ""))
 
-            if equipo_id == TEAM_ID:
+            if str(equipo.get("id", "")) == TEAM_ID:
                 return True
 
     return False
 
 
 def obtener_nombre_competencia(datos, codigo_liga):
-    """Obtiene el nombre visible de la competición."""
+    """Obtiene el nombre visible de la competencia."""
+    if codigo_liga in NOMBRES_COMPETENCIAS:
+        return NOMBRES_COMPETENCIAS[codigo_liga]
+
     liga = datos.get("league", {})
 
     if liga:
         return (
-            liga.get("name")
-            or liga.get("displayName")
+            liga.get("displayName")
+            or liga.get("name")
             or liga.get("shortName")
             or codigo_liga
         )
@@ -74,8 +85,8 @@ def obtener_nombre_competencia(datos, codigo_liga):
 
     if ligas:
         return (
-            ligas[0].get("name")
-            or ligas[0].get("displayName")
+            ligas[0].get("displayName")
+            or ligas[0].get("name")
             or ligas[0].get("shortName")
             or codigo_liga
         )
@@ -88,12 +99,7 @@ def agregar_partidos_desde_datos(
     codigo_liga,
     partidos,
 ):
-    """
-    Agrega únicamente los partidos donde participe Colo-Colo.
-    Usa el ID de ESPN para evitar duplicados.
-    """
-    eventos = datos.get("events", [])
-
+    """Agrega únicamente partidos de Colo-Colo y evita duplicados."""
     nombre_competencia = obtener_nombre_competencia(
         datos,
         codigo_liga,
@@ -101,7 +107,7 @@ def agregar_partidos_desde_datos(
 
     encontrados = 0
 
-    for partido in eventos:
+    for partido in datos.get("events", []):
         if not es_partido_colo_colo(partido):
             continue
 
@@ -124,36 +130,36 @@ def agregar_partidos_desde_datos(
 
 
 def obtener_rangos_mensuales():
-    """Genera los doce rangos mensuales de 2026."""
+    """Crea los doce rangos mensuales de 2026."""
     rangos = []
 
     for mes in range(1, 13):
-        fecha_inicio = datetime(
+        inicio = datetime(
             int(SEASON),
             mes,
             1,
         )
 
         if mes == 12:
-            fecha_siguiente = datetime(
+            siguiente = datetime(
                 int(SEASON) + 1,
                 1,
                 1,
             )
         else:
-            fecha_siguiente = datetime(
+            siguiente = datetime(
                 int(SEASON),
                 mes + 1,
                 1,
             )
 
-        fecha_final = fecha_siguiente - timedelta(days=1)
+        final = siguiente - timedelta(days=1)
 
         rangos.append(
             (
-                fecha_inicio.strftime("%Y%m%d"),
-                fecha_final.strftime("%Y%m%d"),
-                fecha_inicio.strftime("%B"),
+                inicio.strftime("%Y%m%d"),
+                final.strftime("%Y%m%d"),
+                inicio.strftime("%m"),
             )
         )
 
@@ -162,25 +168,18 @@ def obtener_rangos_mensuales():
 
 def obtener_partidos():
     """
-    Consulta ESPN mes por mes para encontrar todos los partidos
-    de Colo-Colo durante 2026.
-
-    También consulta el calendario específico del equipo como respaldo.
+    Busca los partidos mes por mes y también consulta
+    el calendario específico del equipo como respaldo.
     """
     partidos = {}
     errores = []
 
-    rangos_mensuales = obtener_rangos_mensuales()
-
     for codigo_liga in LEAGUES:
         print("\n" + "=" * 60)
-        print(f"🔎 Revisando competición: {codigo_liga}")
+        print(f"🔎 Revisando: {codigo_liga}")
         print("=" * 60)
 
-        total_liga = 0
-
-        # Consulta cada mes por separado.
-        for fecha_inicio, fecha_final, nombre_mes in rangos_mensuales:
+        for fecha_inicio, fecha_final, numero_mes in obtener_rangos_mensuales():
             url = (
                 "https://site.api.espn.com/apis/site/v2/sports/"
                 f"soccer/{codigo_liga}/scoreboard"
@@ -197,36 +196,24 @@ def obtener_partidos():
                     partidos,
                 )
 
-                total_liga += encontrados
-
-                if encontrados > 0:
+                if encontrados:
                     print(
-                        f"✅ {nombre_mes}: "
-                        f"{encontrados} partido(s) encontrado(s)"
-                    )
-                else:
-                    print(
-                        f"➖ {nombre_mes}: "
-                        "sin partidos de Colo-Colo"
+                        f"✅ Mes {numero_mes}: "
+                        f"{encontrados} partido(s)"
                     )
 
             except Exception as error:
-                mensaje = (
+                errores.append(
                     f"{codigo_liga} "
                     f"{fecha_inicio}-{fecha_final}: {error}"
                 )
 
-                errores.append(mensaje)
-
                 print(
-                    f"⚠️ Error consultando {nombre_mes}: "
-                    f"{error}"
+                    f"⚠️ Error en mes {numero_mes}: {error}"
                 )
 
-            # Pequeña pausa para no saturar ESPN.
-            time.sleep(0.2)
+            time.sleep(0.15)
 
-        # Consulta el calendario del equipo como respaldo.
         urls_respaldo = [
             (
                 "https://site.api.espn.com/apis/site/v2/sports/"
@@ -235,16 +222,14 @@ def obtener_partidos():
             ),
             (
                 "https://site.web.api.espn.com/apis/fittwo/v3/"
-                f"sports/soccer/{codigo_liga}/teams/"
-                f"{TEAM_ID}/schedule"
-                f"?season={SEASON}&region=cl&lang=es"
-                "&limit=1000"
+                f"sports/soccer/{codigo_liga}/teams/{TEAM_ID}/schedule"
+                f"?season={SEASON}&region=cl&lang=es&limit=1000"
             ),
         ]
 
-        for url_respaldo in urls_respaldo:
+        for url in urls_respaldo:
             try:
-                datos = obtener_json(url_respaldo)
+                datos = obtener_json(url)
 
                 encontrados = agregar_partidos_desde_datos(
                     datos,
@@ -253,40 +238,30 @@ def obtener_partidos():
                 )
 
                 print(
-                    f"📅 Respaldo: "
-                    f"{encontrados} registro(s) encontrado(s)"
+                    f"📅 Respaldo {codigo_liga}: "
+                    f"{encontrados} registro(s)"
                 )
 
             except Exception as error:
-                mensaje = (
+                errores.append(
                     f"{codigo_liga} respaldo: {error}"
                 )
 
-                errores.append(mensaje)
-
                 print(
-                    f"⚠️ Error en respaldo "
-                    f"{codigo_liga}: {error}"
+                    f"⚠️ Error en respaldo: {error}"
                 )
-
-        print(
-            f"📊 Total encontrado en consultas mensuales "
-            f"para {codigo_liga}: {total_liga}"
-        )
 
     if errores:
         print(
-            f"\n⚠️ Hubo {len(errores)} consultas con error."
+            f"\n⚠️ Hubo {len(errores)} consultas con error, "
+            "pero el calendario continuará generándose."
         )
-
-        for error in errores:
-            print(f"- {error}")
 
     return list(partidos.values())
 
 
 def convertir_fecha(fecha_texto):
-    """Convierte la fecha UTC de ESPN al horario de Chile."""
+    """Convierte una fecha UTC de ESPN al horario de Chile."""
     if not fecha_texto:
         return None
 
@@ -315,11 +290,11 @@ def convertir_fecha(fecha_texto):
 
 
 def obtener_competidores(partido):
-    """Obtiene los equipos local y visitante."""
+    """Obtiene el equipo local, visitante y condición de Colo-Colo."""
     competencias = partido.get("competitions", [])
 
     if not competencias:
-        return None, None, None
+        return None, None, None, None
 
     competidores = competencias[0].get(
         "competitors",
@@ -332,58 +307,56 @@ def obtener_competidores(partido):
     for competidor in competidores:
         equipo = competidor.get("team", {})
 
-        equipo_id = str(
-            equipo.get("id", "")
-        )
-
-        nombre = (
-            equipo.get("displayName")
-            or equipo.get("shortDisplayName")
-            or equipo.get("name")
-            or "Equipo por confirmar"
-        )
-
         datos_equipo = {
-            "id": equipo_id,
-            "nombre": nombre,
+            "id": str(equipo.get("id", "")),
+            "nombre": (
+                equipo.get("displayName")
+                or equipo.get("shortDisplayName")
+                or equipo.get("name")
+                or "Equipo por confirmar"
+            ),
         }
 
-        condicion = competidor.get("homeAway")
-
-        if condicion == "home":
+        if competidor.get("homeAway") == "home":
             local = datos_equipo
 
-        elif condicion == "away":
+        elif competidor.get("homeAway") == "away":
             visitante = datos_equipo
 
     rival = None
+    condicion = None
 
-    if local and local["id"] != TEAM_ID:
-        rival = local["nombre"]
+    if local and local["id"] == TEAM_ID:
+        condicion = "local"
 
-    elif visitante and visitante["id"] != TEAM_ID:
-        rival = visitante["nombre"]
+        if visitante:
+            rival = visitante["nombre"]
 
-    return local, visitante, rival
+    elif visitante and visitante["id"] == TEAM_ID:
+        condicion = "visita"
+
+        if local:
+            rival = local["nombre"]
+
+    return local, visitante, rival, condicion
 
 
 def obtener_estadio(partido):
-    """Obtiene el estadio del encuentro."""
+    """Obtiene el nombre del estadio y la ciudad."""
     competencias = partido.get("competitions", [])
 
     if not competencias:
         return "Estadio por confirmar"
 
-    competencia = competencias[0]
-    estadio = competencia.get("venue", {})
+    venue = competencias[0].get("venue", {})
 
     nombre = (
-        estadio.get("fullName")
-        or estadio.get("shortName")
+        venue.get("fullName")
+        or venue.get("shortName")
         or "Estadio por confirmar"
     )
 
-    direccion = estadio.get("address", {})
+    direccion = venue.get("address", {})
 
     ciudad = (
         direccion.get("city")
@@ -396,12 +369,20 @@ def obtener_estadio(partido):
     return nombre
 
 
-def obtener_estado(partido):
-    """Obtiene el estado del partido."""
-    estado = partido.get("status", {})
-    tipo = estado.get("type", {})
+def obtener_datos_estado(partido):
+    """
+    Obtiene el estado del partido y determina cómo
+    debe mostrarse en el calendario.
+    """
+    status = partido.get("status", {})
+    tipo = status.get("type", {})
 
-    return (
+    nombre = str(
+        tipo.get("name")
+        or ""
+    ).lower()
+
+    descripcion = (
         tipo.get("description")
         or tipo.get("detail")
         or tipo.get("shortDetail")
@@ -409,9 +390,117 @@ def obtener_estado(partido):
         or "Programado"
     )
 
+    estado_espn = str(descripcion).lower()
+
+    cancelado = (
+        "cancel" in nombre
+        or "cancel" in estado_espn
+    )
+
+    aplazado = any(
+        palabra in nombre or palabra in estado_espn
+        for palabra in [
+            "postpon",
+            "suspend",
+            "delay",
+            "aplaz",
+            "suspend",
+        ]
+    )
+
+    finalizado = any(
+        palabra in nombre or palabra in estado_espn
+        for palabra in [
+            "final",
+            "complete",
+            "full time",
+        ]
+    )
+
+    if cancelado:
+        return {
+            "texto": "Cancelado",
+            "ical": "CANCELLED",
+            "emoji": "🚫",
+        }
+
+    if aplazado:
+        return {
+            "texto": "Aplazado o suspendido",
+            "ical": "TENTATIVE",
+            "emoji": "⏸️",
+        }
+
+    if finalizado:
+        return {
+            "texto": "Finalizado",
+            "ical": "CONFIRMED",
+            "emoji": "✅",
+        }
+
+    return {
+        "texto": "Programado",
+        "ical": "CONFIRMED",
+        "emoji": "",
+    }
+
+
+def obtener_transmision(partido):
+    """Busca los canales de televisión informados por ESPN."""
+    nombres = []
+
+    fuentes = []
+
+    fuentes.extend(
+        partido.get("broadcasts", [])
+    )
+
+    for competencia in partido.get("competitions", []):
+        fuentes.extend(
+            competencia.get("broadcasts", [])
+        )
+
+    for transmision in fuentes:
+        if isinstance(transmision, str):
+            nombre = transmision
+
+        elif isinstance(transmision, dict):
+            medio = transmision.get("media", {})
+
+            nombre = (
+                transmision.get("name")
+                or transmision.get("shortName")
+                or transmision.get("displayName")
+                or medio.get("shortName")
+                or medio.get("name")
+            )
+
+            if not nombre:
+                nombres_transmision = transmision.get(
+                    "names",
+                    [],
+                )
+
+                if nombres_transmision:
+                    nombre = ", ".join(
+                        str(valor)
+                        for valor in nombres_transmision
+                    )
+
+        else:
+            nombre = None
+
+        if nombre and nombre not in nombres:
+            nombres.append(nombre)
+
+    if nombres:
+        return ", ".join(nombres)
+
+    return "Por confirmar"
+
 
 def obtener_enlace(partido):
-    """Obtiene el enlace de ESPN del partido, si está disponible."""
+    """Obtiene el enlace de ESPN correspondiente al partido."""
     for enlace in partido.get("links", []):
         url = enlace.get("href")
 
@@ -421,8 +510,112 @@ def obtener_enlace(partido):
     return ""
 
 
-def crear_calendario(partidos):
-    """Crea el calendario iCalendar."""
+def cargar_historial():
+    """
+    Lee el calendario anterior para conservar el número SEQUENCE.
+    Solo aumenta cuando cambian los datos de un partido.
+    """
+    historial = {}
+
+    if not os.path.exists(OUTPUT_FILE):
+        return historial
+
+    try:
+        with open(OUTPUT_FILE, "rb") as archivo:
+            calendario_anterior = Calendar.from_ical(
+                archivo.read()
+            )
+
+        for componente in calendario_anterior.walk():
+            if componente.name != "VEVENT":
+                continue
+
+            uid = str(
+                componente.get("uid", "")
+            )
+
+            if not uid:
+                continue
+
+            sequence = int(
+                componente.get("sequence", 0)
+            )
+
+            content_hash = str(
+                componente.get(
+                    "x-content-hash",
+                    "",
+                )
+            )
+
+            historial[uid] = {
+                "sequence": sequence,
+                "hash": content_hash,
+            }
+
+    except Exception as error:
+        print(
+            f"⚠️ No se pudo leer el calendario anterior: "
+            f"{error}"
+        )
+
+    return historial
+
+
+def crear_hash_evento(
+    titulo,
+    inicio,
+    final,
+    estadio,
+    descripcion,
+    estado,
+):
+    """Crea una huella que permite detectar cambios reales."""
+    contenido = "|".join(
+        [
+            titulo,
+            inicio.isoformat(),
+            final.isoformat(),
+            estadio,
+            descripcion,
+            estado,
+        ]
+    )
+
+    return hashlib.sha256(
+        contenido.encode("utf-8")
+    ).hexdigest()
+
+
+def agregar_alarma(
+    evento,
+    titulo,
+    anticipacion,
+    texto_tiempo,
+):
+    """Agrega una notificación al evento."""
+    alarma = Alarm()
+
+    alarma.add(
+        "action",
+        "DISPLAY",
+    )
+
+    alarma.add(
+        "description",
+        f"{titulo} comienza {texto_tiempo}",
+    )
+
+    alarma.add(
+        "trigger",
+        anticipacion,
+    )
+
+    evento.add_component(alarma)
+
+
+def crear_calendario(partidos, historial):
+    """Construye el calendario iCalendar completo."""
     calendario = Calendar()
 
     calendario.add(
@@ -446,7 +639,10 @@ def crear_calendario(partidos):
 
     calendario.add(
         "x-wr-caldesc",
-        "Calendario automático de partidos de Colo-Colo durante 2026",
+        (
+            "Calendario automático de partidos de "
+            "Colo-Colo durante 2026"
+        ),
     )
 
     partidos_ordenados = sorted(
@@ -454,7 +650,8 @@ def crear_calendario(partidos):
         key=lambda partido: partido.get("date", ""),
     )
 
-    cantidad_eventos = 0
+    cantidad = 0
+    modificados = 0
     momento_actual = datetime.now(timezone.utc)
 
     for partido in partidos_ordenados:
@@ -468,9 +665,12 @@ def crear_calendario(partidos):
         if inicio.year != int(SEASON):
             continue
 
-        local, visitante, rival = obtener_competidores(
-            partido
-        )
+        (
+            local,
+            visitante,
+            rival,
+            condicion,
+        ) = obtener_competidores(partido)
 
         if not local or not visitante:
             print(
@@ -480,38 +680,62 @@ def crear_calendario(partidos):
 
             continue
 
-        nombre_local = local["nombre"]
-        nombre_visitante = visitante["nombre"]
+        estado = obtener_datos_estado(partido)
+        estadio = obtener_estadio(partido)
+        transmision = obtener_transmision(partido)
+        enlace = obtener_enlace(partido)
 
         competencia = partido.get(
             "_competition_name",
             "Competencia por confirmar",
         )
 
-        estadio = obtener_estadio(partido)
-        estado = obtener_estado(partido)
-        enlace = obtener_enlace(partido)
+        if condicion == "local":
+            emoji_condicion = "🏠"
+            texto_condicion = "Local"
 
-        titulo = (
-            f"⚽ {nombre_local} vs {nombre_visitante}"
+        elif condicion == "visita":
+            emoji_condicion = "✈️"
+            texto_condicion = "Visita"
+
+        else:
+            emoji_condicion = "⚽"
+            texto_condicion = "Por confirmar"
+
+        prefijo_estado = estado["emoji"]
+
+        titulo_base = (
+            f"{emoji_condicion} "
+            f"{local['nombre']} vs {visitante['nombre']}"
         )
 
+        if prefijo_estado:
+            titulo = f"{prefijo_estado} {titulo_base}"
+        else:
+            titulo = titulo_base
+
+        final = inicio + timedelta(hours=2)
+
         descripcion = (
-            f"Partido: {nombre_local} vs {nombre_visitante}\n"
-            f"Rival de Colo-Colo: "
-            f"{rival or 'Por confirmar'}\n"
-            f"Competencia: {competencia}\n"
-            f"Estado: {estado}\n"
-            f"Estadio: {estadio}\n"
-            f"Temporada: {SEASON}"
+            f"⚽ Partido: "
+            f"{local['nombre']} vs {visitante['nombre']}\n"
+            f"🏁 Condición: {texto_condicion}\n"
+            f"👤 Rival: {rival or 'Por confirmar'}\n"
+            f"🏆 Competencia: {competencia}\n"
+            f"📅 Estado: {estado['texto']}\n"
+            f"🏟️ Estadio: {estadio}\n"
+            f"📺 Transmisión: {transmision}\n"
+            f"🗓️ Temporada: {SEASON}"
         )
 
         if enlace:
-            descripcion += f"\nMás información: {enlace}"
+            descripcion += (
+                f"\n🔗 Más información: {enlace}"
+            )
 
         descripcion += (
-            "\n\nCalendario actualizado automáticamente "
-            "desde ESPN."
+            "\n\nCalendario actualizado "
+            "automáticamente desde ESPN."
         )
 
         partido_id = str(
@@ -519,72 +743,99 @@ def crear_calendario(partidos):
             or partido.get("uid")
         )
 
+        uid = (
+            f"espn-{partido_id}"
+            f"@colo-colo-{SEASON}"
+        )
+
+        content_hash = crear_hash_evento(
+            titulo,
+            inicio,
+            final,
+            estadio,
+            descripcion,
+            estado["ical"],
+        )
+
+        datos_anteriores = historial.get(
+            uid,
+            {},
+        )
+
+        sequence_anterior = int(
+            datos_anteriores.get(
+                "sequence",
+                0,
+            )
+        )
+
+        hash_anterior = datos_anteriores.get(
+            "hash",
+            "",
+        )
+
+        if hash_anterior and hash_anterior != content_hash:
+            sequence = sequence_anterior + 1
+            modificados += 1
+
+            print(
+                f"🔄 Cambio detectado: {titulo}"
+            )
+
+        else:
+            sequence = sequence_anterior
+
         evento = Event()
 
-        evento.add(
-            "uid",
-            f"espn-{partido_id}@colo-colo-{SEASON}",
-        )
-
+        evento.add("uid", uid)
         evento.add("summary", titulo)
         evento.add("dtstart", inicio)
-
-        evento.add(
-            "dtend",
-            inicio + timedelta(hours=2),
-        )
-
-        evento.add(
-            "dtstamp",
-            momento_actual,
-        )
-
-        evento.add(
-            "last-modified",
-            momento_actual,
-        )
-
+        evento.add("dtend", final)
+        evento.add("dtstamp", momento_actual)
+        evento.add("last-modified", momento_actual)
         evento.add("location", estadio)
         evento.add("description", descripcion)
-        evento.add("status", "CONFIRMED")
+        evento.add("status", estado["ical"])
         evento.add("transp", "OPAQUE")
-        evento.add("sequence", 0)
+        evento.add("sequence", sequence)
+
+        evento.add(
+            "x-content-hash",
+            content_hash,
+        )
 
         if enlace:
             evento.add("url", enlace)
 
-        alarma = Alarm()
+        if estado["ical"] != "CANCELLED":
+            agregar_alarma(
+                evento,
+                titulo_base,
+                timedelta(days=-1),
+                "en 24 horas",
+            )
 
-        alarma.add(
-            "action",
-            "DISPLAY",
-        )
+            agregar_alarma(
+                evento,
+                titulo_base,
+                timedelta(hours=-1),
+                "en una hora",
+            )
 
-        alarma.add(
-            "description",
-            f"{titulo} comienza en una hora",
-        )
-
-        alarma.add(
-            "trigger",
-            timedelta(hours=-1),
-        )
-
-        evento.add_component(alarma)
         calendario.add_component(evento)
 
-        cantidad_eventos += 1
+        cantidad += 1
 
         print(
             f"➕ {inicio.strftime('%d-%m-%Y %H:%M')} | "
-            f"{nombre_local} vs {nombre_visitante}"
+            f"{titulo}"
         )
 
-    return calendario, cantidad_eventos
+    return calendario, cantidad, modificados
 
 
 def guardar_calendario(calendario):
-    """Guarda el calendario sin reemplazarlo parcialmente."""
+    """Guarda el calendario de forma segura."""
     archivo_temporal = f"{OUTPUT_FILE}.tmp"
 
     with open(
@@ -603,10 +854,11 @@ def guardar_calendario(calendario):
 
 def main():
     print(
-        "🔎 Buscando todos los partidos "
-        "de Colo-Colo durante 2026..."
+        "🔎 Buscando los partidos de "
+        "Colo-Colo durante 2026..."
     )
 
+    historial = cargar_historial()
     partidos = obtener_partidos()
 
     print(
@@ -625,13 +877,18 @@ def main():
 
         sys.exit(1)
 
-    calendario, cantidad = crear_calendario(
-        partidos
+    (
+        calendario,
+        cantidad,
+        modificados,
+    ) = crear_calendario(
+        partidos,
+        historial,
     )
 
     if cantidad == 0:
         print(
-            "\n❌ No se pudieron crear eventos válidos."
+            "\n❌ No se crearon eventos válidos."
         )
 
         print(
@@ -645,6 +902,10 @@ def main():
     print(
         f"\n✅ Calendario generado con "
         f"{cantidad} partidos."
+    )
+
+    print(
+        f"🔄 Partidos modificados: {modificados}"
     )
 
     print(
