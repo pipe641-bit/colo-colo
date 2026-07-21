@@ -1,69 +1,34 @@
-import requests
-from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 import uuid
 
-URL = "https://www.espn.com/soccer/team/fixtures/_/id/2688/colo-colo"
-
 cal = Calendar()
+
 cal.add("prodid", "-//Colo-Colo Calendario//")
 cal.add("version", "2.0")
 
 tz = pytz.timezone("America/Santiago")
 
-headers = {
-    "User-Agent": "Mozilla/5.0"
-}
+evento = Event()
 
-html = requests.get(URL, headers=headers).text
+evento.add("summary", "⚽ Colo-Colo Partido de prueba")
 
-soup = BeautifulSoup(html, "lxml")
+evento.add(
+    "description",
+    "Calendario automático Colo-Colo"
+)
 
-partidos = soup.find_all("section")
+inicio = tz.localize(datetime.now() + timedelta(days=1))
 
-for partido in partidos:
-    texto = partido.get_text(" ", strip=True)
+evento.add("dtstart", inicio)
+evento.add("dtend", inicio + timedelta(hours=2))
 
-    if "Colo Colo" in texto:
-        try:
-            evento = Event()
+evento.add("uid", str(uuid.uuid4()))
 
-            evento.add(
-                "summary",
-                "⚽ Colo-Colo - Partido"
-            )
+cal.add_component(evento)
 
-            evento.add(
-                "description",
-                texto
-            )
+with open("colo-colo.ics", "wb") as f:
+    f.write(cal.to_ical())
 
-            evento.add(
-                "uid",
-                str(uuid.uuid4())
-            )
-
-            fecha = datetime.now(tz)
-
-            evento.add(
-                "dtstart",
-                fecha
-            )
-
-            evento.add(
-                "dtend",
-                fecha
-            )
-
-            cal.add_component(evento)
-
-        except:
-            pass
-
-
-with open("colo-colo.ics", "wb") as archivo:
-    archivo.write(cal.to_ical())
-
-print("Calendario generado correctamente")
+print("Calendario creado")
