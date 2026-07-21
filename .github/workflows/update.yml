@@ -1,0 +1,35 @@
+name: Actualizar calendario Colo-Colo
+
+on:
+  schedule:
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Instalar librerías
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generar calendario
+        run: |
+          python update.py
+
+      - name: Guardar cambios
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add colo-colo.ics
+          git commit -m "Actualización calendario" || exit 0
+          git push
