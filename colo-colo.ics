@@ -1,4 +1,11 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Colo-Colo Calendario//
+BEGIN:VEVENT
+SUMMARY:⚽ Colo-Colo Partido de prueba
+DTSTART;TZID=America/Santiago:20260722T184331
+DTEND;TZID=America/Santiago:20260722T204331
+UID:40c9afc6-7e9a-4104-aec6-fce4f8688a25
+DESCRIPTION:Calendario automático Colo-Colo
+END:VEVENT
 END:VCALENDAR
