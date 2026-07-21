@@ -10,16 +10,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Deportes Limache vs Colo Colo
 DTSTART;TZID=America/Santiago:20260131T120000
 DTEND;TZID=America/Santiago:20260131T140000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850418@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Deportes Limache vs Colo Colo\nRival de Colo-Colo: De
- portes Limache\nCompetencia: 2026 Primera División de Chile\nEstado: Prog
- ramado\nEstadio: Estadio Elías Figueroa Brander\, Valparaiso\nTemporada: 
- 2026\n\nCalendario actualizado automáticamente desde ESPN.
+ portes Limache\nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio E
+ lías Figueroa Brander\, Valparaiso\nTemporada: 2026\nMás información: h
+ ttps://www.espn.com/soccer/match/_/gameId/401850418/colo-colo-deportes-lim
+ ache\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Elías Figueroa Brander\, Valparaiso
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850418/colo-colo-deporte
+ s-limache
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Deportes Limache vs Colo Colo comienza en una hora
@@ -30,16 +34,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Colo Colo vs Everton CD
 DTSTART;TZID=America/Santiago:20260207T203000
 DTEND;TZID=America/Santiago:20260207T223000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850437@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Colo Colo vs Everton CD\nRival de Colo-Colo: Everton 
- CD\nCompetencia: 2026 Primera División de Chile\nEstado: Programado\nEsta
- dio: Estadio Monumental David Arellano\, Santiago\nTemporada: 2026\n\nCale
- ndario actualizado automáticamente desde ESPN.
+ CD\nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio Monumental Da
+ vid Arellano\, Santiago\nTemporada: 2026\nMás información: https://www.e
+ spn.com/soccer/match/_/gameId/401850437/everton-cd-colo-colo\n\nCalendario
+  actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850437/everton-cd-colo-c
+ olo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Colo Colo vs Everton CD comienza en una hora
@@ -50,16 +58,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Colo Colo vs Unión La Calera
 DTSTART;TZID=America/Santiago:20260215T203000
 DTEND;TZID=America/Santiago:20260215T223000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850445@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Colo Colo vs Unión La Calera\nRival de Colo-Colo: Un
- ión La Calera\nCompetencia: 2026 Primera División de Chile\nEstado: Prog
- ramado\nEstadio: Estadio Monumental David Arellano\, Santiago\nTemporada: 
- 2026\n\nCalendario actualizado automáticamente desde ESPN.
+ ión La Calera\nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio M
+ onumental David Arellano\, Santiago\nTemporada: 2026\nMás información: h
+ ttps://www.espn.com/soccer/match/_/gameId/401850445/union-la-calera-colo-c
+ olo\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850445/union-la-calera-c
+ olo-colo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Colo Colo vs Unión La Calera comienza en una hora
@@ -70,16 +82,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ O'Higgins vs Colo Colo
 DTSTART;TZID=America/Santiago:20260221T180000
 DTEND;TZID=America/Santiago:20260221T200000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850467@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: O'Higgins vs Colo Colo\nRival de Colo-Colo: O'Higgins
- \nCompetencia: 2026 Primera División de Chile\nEstado: Programado\nEstadi
- o: Estadio El Teniente\, Rancagua\nTemporada: 2026\n\nCalendario actualiza
- do automáticamente desde ESPN.
+ \nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio El Teniente\, R
+ ancagua\nTemporada: 2026\nMás información: https://www.espn.com/soccer/m
+ atch/_/gameId/401850467/colo-colo-ohiggins\n\nCalendario actualizado autom
+ áticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio El Teniente\, Rancagua
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850467/colo-colo-ohiggin
+ s
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ O'Higgins vs Colo Colo comienza en una hora
@@ -90,16 +106,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Colo Colo vs Universidad de Chile
 DTSTART;TZID=America/Santiago:20260301T180000
 DTEND;TZID=America/Santiago:20260301T200000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850480@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Colo Colo vs Universidad de Chile\nRival de Colo-Colo
- : Universidad de Chile\nCompetencia: 2026 Primera División de Chile\nEsta
- do: Programado\nEstadio: Estadio Monumental David Arellano\, Santiago\nTem
- porada: 2026\n\nCalendario actualizado automáticamente desde ESPN.
+ : Universidad de Chile\nCompetencia: chi.1\nEstado: Programado\nEstadio: E
+ stadio Monumental David Arellano\, Santiago\nTemporada: 2026\nMás informa
+ ción: https://www.espn.com/soccer/match/_/gameId/401850480/universidad-de
+ -chile-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850480/universidad-de-ch
+ ile-colo-colo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Colo Colo vs Universidad de Chile comienza en una hora
@@ -110,16 +130,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Audax Italiano vs Colo Colo
 DTSTART;TZID=America/Santiago:20260307T180000
 DTEND;TZID=America/Santiago:20260307T200000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850499@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Audax Italiano vs Colo Colo\nRival de Colo-Colo: Auda
- x Italiano\nCompetencia: 2026 Primera División de Chile\nEstado: Programa
- do\nEstadio: Estadio Municipal de La Florida\, Santiago\nTemporada: 2026\n
- \nCalendario actualizado automáticamente desde ESPN.
+ x Italiano\nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio Munic
+ ipal de La Florida\, Santiago\nTemporada: 2026\nMás información: https:/
+ /www.espn.com/soccer/match/_/gameId/401850499/colo-colo-audax-italiano\n\n
+ Calendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Municipal de La Florida\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850499/colo-colo-audax-i
+ taliano
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Audax Italiano vs Colo Colo comienza en una hora
@@ -130,16 +154,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Colo Colo vs Huachipato
 DTSTART;TZID=America/Santiago:20260316T203000
 DTEND;TZID=America/Santiago:20260316T223000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850516@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Colo Colo vs Huachipato\nRival de Colo-Colo: Huachipa
- to\nCompetencia: 2026 Primera División de Chile\nEstado: Programado\nEsta
- dio: Estadio Monumental David Arellano\, Santiago\nTemporada: 2026\n\nCale
- ndario actualizado automáticamente desde ESPN.
+ to\nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio Monumental Da
+ vid Arellano\, Santiago\nTemporada: 2026\nMás información: https://www.e
+ spn.com/soccer/match/_/gameId/401850516/huachipato-colo-colo\n\nCalendario
+  actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850516/huachipato-colo-c
+ olo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Colo Colo vs Huachipato comienza en una hora
@@ -150,17 +178,21 @@ BEGIN:VEVENT
 SUMMARY:⚽ Deportes Concepcion vs Colo Colo
 DTSTART;TZID=America/Santiago:20260405T153000
 DTEND;TZID=America/Santiago:20260405T173000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850537@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Deportes Concepcion vs Colo Colo\nRival de Colo-Colo:
-  Deportes Concepcion\nCompetencia: 2026 Primera División de Chile\nEstado
- : Programado\nEstadio: Estadio Municipal Alcaldesa Ester Roa Rebolledo\, C
- oncepción\nTemporada: 2026\n\nCalendario actualizado automáticamente des
- de ESPN.
+  Deportes Concepcion\nCompetencia: chi.1\nEstado: Programado\nEstadio: Est
+ adio Municipal Alcaldesa Ester Roa Rebolledo\, Concepción\nTemporada: 202
+ 6\nMás información: https://www.espn.com/soccer/match/_/gameId/401850537
+ /colo-colo-deportes-concepcion\n\nCalendario actualizado automáticamente 
+ desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo\, Concepción
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850537/colo-colo-deporte
+ s-concepcion
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Deportes Concepcion vs Colo Colo comienza en una hora
@@ -171,16 +203,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Colo Colo vs Palestino
 DTSTART;TZID=America/Santiago:20260419T183000
 DTEND;TZID=America/Santiago:20260419T203000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850549@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Colo Colo vs Palestino\nRival de Colo-Colo: Palestino
- \nCompetencia: 2026 Primera División de Chile\nEstado: Programado\nEstadi
- o: Estadio Monumental David Arellano\, Santiago\nTemporada: 2026\n\nCalend
- ario actualizado automáticamente desde ESPN.
+ \nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio Monumental Davi
+ d Arellano\, Santiago\nTemporada: 2026\nMás información: https://www.esp
+ n.com/soccer/match/_/gameId/401850549/palestino-colo-colo\n\nCalendario ac
+ tualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850549/palestino-colo-co
+ lo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Colo Colo vs Palestino comienza en una hora
@@ -191,17 +227,21 @@ BEGIN:VEVENT
 SUMMARY:⚽ Universidad de Concepción vs Colo Colo
 DTSTART;TZID=America/Santiago:20260426T150000
 DTEND;TZID=America/Santiago:20260426T170000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850558@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Universidad de Concepción vs Colo Colo\nRival de Col
- o-Colo: Universidad de Concepción\nCompetencia: 2026 Primera División de
-  Chile\nEstado: Programado\nEstadio: Estadio Municipal Alcaldesa Ester Roa
-  Rebolledo\, Concepción\nTemporada: 2026\n\nCalendario actualizado autom
- áticamente desde ESPN.
+ o-Colo: Universidad de Concepción\nCompetencia: chi.1\nEstado: Programado
+ \nEstadio: Estadio Municipal Alcaldesa Ester Roa Rebolledo\, Concepción\n
+ Temporada: 2026\nMás información: https://www.espn.com/soccer/match/_/ga
+ meId/401850558/colo-colo-universidad-de-concepcion\n\nCalendario actualiza
+ do automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo\, Concepción
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850558/colo-colo-univers
+ idad-de-concepcion
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Universidad de Concepción vs Colo Colo comienza en una ho
@@ -213,16 +253,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Colo Colo vs Coquimbo Unido
 DTSTART;TZID=America/Santiago:20260503T173000
 DTEND;TZID=America/Santiago:20260503T193000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850545@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Colo Colo vs Coquimbo Unido\nRival de Colo-Colo: Coqu
- imbo Unido\nCompetencia: 2026 Primera División de Chile\nEstado: Programa
- do\nEstadio: Estadio Monumental David Arellano\, Santiago\nTemporada: 2026
- \n\nCalendario actualizado automáticamente desde ESPN.
+ imbo Unido\nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio Monum
+ ental David Arellano\, Santiago\nTemporada: 2026\nMás información: https
+ ://www.espn.com/soccer/match/_/gameId/401850545/coquimbo-unido-colo-colo\n
+ \nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850545/coquimbo-unido-co
+ lo-colo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Colo Colo vs Coquimbo Unido comienza en una hora
@@ -233,16 +277,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Colo Colo vs Ñublense
 DTSTART;TZID=America/Santiago:20260517T173000
 DTEND;TZID=America/Santiago:20260517T193000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850565@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Colo Colo vs Ñublense\nRival de Colo-Colo: Ñublense
- \nCompetencia: 2026 Primera División de Chile\nEstado: Programado\nEstadi
- o: Estadio Monumental David Arellano\, Santiago\nTemporada: 2026\n\nCalend
- ario actualizado automáticamente desde ESPN.
+ \nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio Monumental Davi
+ d Arellano\, Santiago\nTemporada: 2026\nMás información: https://www.esp
+ n.com/soccer/match/_/gameId/401850565/nublense-colo-colo\n\nCalendario act
+ ualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850565/nublense-colo-col
+ o
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Colo Colo vs Ñublense comienza en una hora
@@ -253,16 +301,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ Universidad Católica vs Colo Colo
 DTSTART;TZID=America/Santiago:20260524T180000
 DTEND;TZID=America/Santiago:20260524T200000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850579@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Universidad Católica vs Colo Colo\nRival de Colo-Col
- o: Universidad Católica\nCompetencia: 2026 Primera División de Chile\nEs
- tado: Programado\nEstadio: Estadio San Carlos de Apoquindo\, Santiago\nTem
- porada: 2026\n\nCalendario actualizado automáticamente desde ESPN.
+ o: Universidad Católica\nCompetencia: chi.1\nEstado: Programado\nEstadio:
+  Estadio San Carlos de Apoquindo\, Santiago\nTemporada: 2026\nMás informa
+ ción: https://www.espn.com/soccer/match/_/gameId/401850579/colo-colo-univ
+ ersidad-catolica\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio San Carlos de Apoquindo\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850579/colo-colo-univers
+ idad-catolica
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Universidad Católica vs Colo Colo comienza en una hora
@@ -273,16 +325,20 @@ BEGIN:VEVENT
 SUMMARY:⚽ La Serena vs Colo Colo
 DTSTART;TZID=America/Santiago:20260530T150000
 DTEND;TZID=America/Santiago:20260530T170000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850586@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: La Serena vs Colo Colo\nRival de Colo-Colo: La Serena
- \nCompetencia: 2026 Primera División de Chile\nEstado: Programado\nEstadi
- o: Estadio La Portada\nTemporada: 2026\n\nCalendario actualizado automáti
- camente desde ESPN.
+ \nCompetencia: chi.1\nEstado: Programado\nEstadio: Estadio La Portada\nTem
+ porada: 2026\nMás información: https://www.espn.com/soccer/match/_/gameI
+ d/401850586/colo-colo-la-serena\n\nCalendario actualizado automáticamente
+  desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio La Portada
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850586/colo-colo-la-sere
+ na
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ La Serena vs Colo Colo comienza en una hora
@@ -293,19 +349,535 @@ BEGIN:VEVENT
 SUMMARY:⚽ Colo Colo vs Cobresal
 DTSTART;TZID=America/Santiago:20260613T173000
 DTEND;TZID=America/Santiago:20260613T193000
-DTSTAMP:20260721T190256Z
+DTSTAMP:20260721T190834Z
 UID:espn-401850589@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:Partido: Colo Colo vs Cobresal\nRival de Colo-Colo: Cobresal\n
- Competencia: 2026 Primera División de Chile\nEstado: Programado\nEstadio:
-  Estadio Monumental David Arellano\, Santiago\nTemporada: 2026\n\nCalendar
- io actualizado automáticamente desde ESPN.
+ Competencia: chi.1\nEstado: Programado\nEstadio: Estadio Monumental David 
+ Arellano\, Santiago\nTemporada: 2026\nMás información: https://www.espn.
+ com/soccer/match/_/gameId/401850589/cobresal-colo-colo\n\nCalendario actua
+ lizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850589/cobresal-colo-col
+ o
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⚽ Colo Colo vs Cobresal comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Deportes Recoleta vs Colo Colo
+DTSTART;TZID=America/Santiago:20260620T173000
+DTEND;TZID=America/Santiago:20260620T193000
+DTSTAMP:20260721T190834Z
+UID:espn-401871820@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Deportes Recoleta vs Colo Colo\nRival de Colo-Colo: D
+ eportes Recoleta\nCompetencia: chi.copa_chi\nEstado: Programado\nEstadio: 
+ Estadio Santa Laura-Universidad SEK\, Santiago\nTemporada: 2026\nMás info
+ rmación: https://www.espn.com/soccer/match/_/gameId/401871820/colo-colo-d
+ eportes-recoleta\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Santa Laura-Universidad SEK\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401871820/colo-colo-deporte
+ s-recoleta
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Deportes Recoleta vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs O'Higgins
+DTSTART;TZID=America/Santiago:20260625T193000
+DTEND;TZID=America/Santiago:20260625T213000
+DTSTAMP:20260721T190834Z
+UID:espn-401871857@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs O'Higgins\nRival de Colo-Colo: O'Higgins
+ \nCompetencia: chi.copa_chi\nEstado: Programado\nEstadio: Estadio Monument
+ al David Arellano\, Santiago\nTemporada: 2026\nMás información: https://
+ www.espn.com/soccer/match/_/gameId/401871857/ohiggins-colo-colo\n\nCalenda
+ rio actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401871857/ohiggins-colo-col
+ o
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs O'Higgins comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Unión Española vs Colo Colo
+DTSTART;TZID=America/Santiago:20260629T193000
+DTEND;TZID=America/Santiago:20260629T213000
+DTSTAMP:20260721T190834Z
+UID:espn-401871874@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Unión Española vs Colo Colo\nRival de Colo-Colo: Un
+ ión Española\nCompetencia: chi.copa_chi\nEstado: Programado\nEstadio: Es
+ tadio Santa Laura-Universidad SEK\, Santiago\nTemporada: 2026\nMás inform
+ ación: https://www.espn.com/soccer/match/_/gameId/401871874/colo-colo-uni
+ on-espanola\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Santa Laura-Universidad SEK\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401871874/colo-colo-union-e
+ spanola
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Unión Española vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ O'Higgins vs Colo Colo
+DTSTART;TZID=America/Santiago:20260702T203000
+DTEND;TZID=America/Santiago:20260702T223000
+DTSTAMP:20260721T190834Z
+UID:espn-401871882@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: O'Higgins vs Colo Colo\nRival de Colo-Colo: O'Higgins
+ \nCompetencia: chi.copa_chi\nEstado: Programado\nEstadio: Estadio El Tenie
+ nte\, Rancagua\nTemporada: 2026\nMás información: https://www.espn.com/s
+ occer/match/_/gameId/401871882/colo-colo-ohiggins\n\nCalendario actualizad
+ o automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio El Teniente\, Rancagua
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401871882/colo-colo-ohiggin
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ O'Higgins vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs Deportes Recoleta
+DTSTART;TZID=America/Santiago:20260706T193000
+DTEND;TZID=America/Santiago:20260706T213000
+DTSTAMP:20260721T190834Z
+UID:espn-401871897@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs Deportes Recoleta\nRival de Colo-Colo: D
+ eportes Recoleta\nCompetencia: chi.copa_chi\nEstado: Programado\nEstadio: 
+ Estadio Monumental David Arellano\, Santiago\nTemporada: 2026\nMás inform
+ ación: https://www.espn.com/soccer/match/_/gameId/401871897/deportes-reco
+ leta-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401871897/deportes-recoleta
+ -colo-colo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs Deportes Recoleta comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs Deportes Limache
+DTSTART;TZID=America/Santiago:20260724T203000
+DTEND;TZID=America/Santiago:20260724T223000
+DTSTAMP:20260721T190834Z
+UID:espn-401850597@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs Deportes Limache\nRival de Colo-Colo: De
+ portes Limache\nCompetencia: Chilean Primera División\nEstado: Scheduled\
+ nEstadio: Estadio Monumental David Arellano\, Santiago\nTemporada: 2026\nM
+ ás información: https://www.espn.com/soccer/match/_/gameId/401850597/dep
+ ortes-limache-colo-colo\n\nCalendario actualizado automáticamente desde E
+ SPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850597/deportes-limache-
+ colo-colo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs Deportes Limache comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Everton CD vs Colo Colo
+DTSTART;TZID=America/Santiago:20260801T150000
+DTEND;TZID=America/Santiago:20260801T170000
+DTSTAMP:20260721T190834Z
+UID:espn-401850610@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Everton CD vs Colo Colo\nRival de Colo-Colo: Everton 
+ CD\nCompetencia: Chilean Primera División\nEstado: Scheduled\nEstadio: Es
+ tadio Sausalito\, Vina del Mar\nTemporada: 2026\nMás información: https:
+ //www.espn.com/soccer/match/_/gameId/401850610/colo-colo-everton-cd\n\nCal
+ endario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Sausalito\, Vina del Mar
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850610/colo-colo-everton
+ -cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Everton CD vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Unión La Calera vs Colo Colo
+DTSTART;TZID=America/Santiago:20260809T173000
+DTEND;TZID=America/Santiago:20260809T193000
+DTSTAMP:20260721T190834Z
+UID:espn-401850619@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Unión La Calera vs Colo Colo\nRival de Colo-Colo: Un
+ ión La Calera\nCompetencia: Chilean Primera División\nEstado: Scheduled\
+ nEstadio: Estadio Municipal Nicolás Chahuán\, La Calera\nTemporada: 2026
+ \nMás información: https://www.espn.com/soccer/match/_/gameId/401850619/
+ colo-colo-union-la-calera\n\nCalendario actualizado automáticamente desde
+  ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Municipal Nicolás Chahuán\, La Calera
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850619/colo-colo-union-l
+ a-calera
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Unión La Calera vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs O'Higgins
+DTSTART;TZID=America/Santiago:20260816T173000
+DTEND;TZID=America/Santiago:20260816T193000
+DTSTAMP:20260721T190834Z
+UID:espn-401850621@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs O'Higgins\nRival de Colo-Colo: O'Higgins
+ \nCompetencia: Chilean Primera División\nEstado: Scheduled\nEstadio: Esta
+ dio Monumental David Arellano\, Santiago\nTemporada: 2026\nMás informaci
+ ón: https://www.espn.com/soccer/match/_/gameId/401850621/ohiggins-colo-co
+ lo\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850621/ohiggins-colo-col
+ o
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs O'Higgins comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Universidad de Chile vs Colo Colo
+DTSTART;TZID=America/Santiago:20260823T150000
+DTEND;TZID=America/Santiago:20260823T170000
+DTSTAMP:20260721T190834Z
+UID:espn-401850630@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Universidad de Chile vs Colo Colo\nRival de Colo-Colo
+ : Universidad de Chile\nCompetencia: Chilean Primera División\nEstado: Sc
+ heduled\nEstadio: Estadio Nacional Julio Martínez Prádanos\, Santiago\nT
+ emporada: 2026\nMás información: https://www.espn.com/soccer/match/_/gam
+ eId/401850630/colo-colo-universidad-de-chile\n\nCalendario actualizado aut
+ omáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Nacional Julio Martínez Prádanos\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850630/colo-colo-univers
+ idad-de-chile
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Universidad de Chile vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs Unión Española
+DTSTART;TZID=America/Santiago:20260826T203000
+DTEND;TZID=America/Santiago:20260826T223000
+DTSTAMP:20260721T190834Z
+UID:espn-401881694@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs Unión Española\nRival de Colo-Colo: Un
+ ión Española\nCompetencia: Copa Chile\nEstado: Scheduled\nEstadio: Estad
+ io Monumental David Arellano\, Santiago\nTemporada: 2026\nMás informació
+ n: https://www.espn.com/soccer/match/_/gameId/401881694/union-espanola-col
+ o-colo\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401881694/union-espanola-co
+ lo-colo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs Unión Española comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs Audax Italiano
+DTSTART;TZID=America/Santiago:20260830T173000
+DTEND;TZID=America/Santiago:20260830T193000
+DTSTAMP:20260721T190834Z
+UID:espn-401850642@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs Audax Italiano\nRival de Colo-Colo: Auda
+ x Italiano\nCompetencia: Chilean Primera División\nEstado: Scheduled\nEst
+ adio: Estadio Monumental David Arellano\, Santiago\nTemporada: 2026\nMás 
+ información: https://www.espn.com/soccer/match/_/gameId/401850642/audax-i
+ taliano-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850642/audax-italiano-co
+ lo-colo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs Audax Italiano comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Huachipato vs Colo Colo
+DTSTART;TZID=America/Santiago:20260906T170000
+DTEND;TZID=America/Santiago:20260906T190000
+DTSTAMP:20260721T190834Z
+UID:espn-401850650@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Huachipato vs Colo Colo\nRival de Colo-Colo: Huachipa
+ to\nCompetencia: Chilean Primera División\nEstado: Scheduled\nEstadio: Es
+ tadio Municipal Alcaldesa Ester Roa Rebolledo\, Concepción\nTemporada: 20
+ 26\nMás información: https://www.espn.com/soccer/match/_/gameId/40185065
+ 0/colo-colo-huachipato\n\nCalendario actualizado automáticamente desde ES
+ PN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo\, Concepción
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850650/colo-colo-huachip
+ ato
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Huachipato vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs Deportes Concepcion
+DTSTART;TZID=America/Santiago:20260913T173000
+DTEND;TZID=America/Santiago:20260913T193000
+DTSTAMP:20260721T190834Z
+UID:espn-401850657@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs Deportes Concepcion\nRival de Colo-Colo:
+  Deportes Concepcion\nCompetencia: Chilean Primera División\nEstado: Sche
+ duled\nEstadio: Estadio Monumental David Arellano\, Santiago\nTemporada: 2
+ 026\nMás información: https://www.espn.com/soccer/match/_/gameId/4018506
+ 57/deportes-concepcion-colo-colo\n\nCalendario actualizado automáticament
+ e desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850657/deportes-concepci
+ on-colo-colo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs Deportes Concepcion comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Coquimbo Unido vs Colo Colo
+DTSTART;TZID=America/Santiago:20261011T150000
+DTEND;TZID=America/Santiago:20261011T170000
+DTSTAMP:20260721T190834Z
+UID:espn-401850661@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Coquimbo Unido vs Colo Colo\nRival de Colo-Colo: Coqu
+ imbo Unido\nCompetencia: Chilean Primera División\nEstado: Scheduled\nEst
+ adio: Estadio Francisco Sánchez Rumoroso\, Coquimbo\nTemporada: 2026\nMá
+ s información: https://www.espn.com/soccer/match/_/gameId/401850661/colo-
+ colo-coquimbo-unido\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Francisco Sánchez Rumoroso\, Coquimbo
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850661/colo-colo-coquimb
+ o-unido
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Coquimbo Unido vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Palestino vs Colo Colo
+DTSTART;TZID=America/Santiago:20261025T150000
+DTEND;TZID=America/Santiago:20261025T170000
+DTSTAMP:20260721T190834Z
+UID:espn-401850672@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Palestino vs Colo Colo\nRival de Colo-Colo: Palestino
+ \nCompetencia: Chilean Primera División\nEstado: Scheduled\nEstadio: Esta
+ dio Municipal de La Cisterna\, Santiago\nTemporada: 2026\nMás informació
+ n: https://www.espn.com/soccer/match/_/gameId/401850672/colo-colo-palestin
+ o\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Municipal de La Cisterna\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850672/colo-colo-palesti
+ no
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Palestino vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs Universidad de Concepción
+DTSTART;TZID=America/Santiago:20261101T170000
+DTEND;TZID=America/Santiago:20261101T190000
+DTSTAMP:20260721T190834Z
+UID:espn-401850681@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs Universidad de Concepción\nRival de Col
+ o-Colo: Universidad de Concepción\nCompetencia: Chilean Primera División
+ \nEstado: Scheduled\nEstadio: Estadio Monumental David Arellano\, Santiago
+ \nTemporada: 2026\nMás información: https://www.espn.com/soccer/match/_/
+ gameId/401850681/universidad-de-concepcion-colo-colo\n\nCalendario actuali
+ zado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850681/universidad-de-co
+ ncepcion-colo-colo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs Universidad de Concepción comienza en una ho
+ ra
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Ñublense vs Colo Colo
+DTSTART;TZID=America/Santiago:20261108T170000
+DTEND;TZID=America/Santiago:20261108T190000
+DTSTAMP:20260721T190834Z
+UID:espn-401850691@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Ñublense vs Colo Colo\nRival de Colo-Colo: Ñublense
+ \nCompetencia: Chilean Primera División\nEstado: Scheduled\nEstadio: Esta
+ dio Municipal Oyarzún Arenas\, Chillán\nTemporada: 2026\nMás informaci
+ ón: https://www.espn.com/soccer/match/_/gameId/401850691/colo-colo-nublen
+ se\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Municipal Oyarzún Arenas\, Chillán
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850691/colo-colo-nublens
+ e
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Ñublense vs Colo Colo comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs Universidad Católica
+DTSTART;TZID=America/Santiago:20261122T170000
+DTEND;TZID=America/Santiago:20261122T190000
+DTSTAMP:20260721T190834Z
+UID:espn-401850693@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs Universidad Católica\nRival de Colo-Col
+ o: Universidad Católica\nCompetencia: Chilean Primera División\nEstado: 
+ Scheduled\nEstadio: Estadio Monumental David Arellano\, Santiago\nTemporad
+ a: 2026\nMás información: https://www.espn.com/soccer/match/_/gameId/401
+ 850693/universidad-catolica-colo-colo\n\nCalendario actualizado automátic
+ amente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850693/universidad-catol
+ ica-colo-colo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs Universidad Católica comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Colo Colo vs La Serena
+DTSTART;TZID=America/Santiago:20261129T170000
+DTEND;TZID=America/Santiago:20261129T190000
+DTSTAMP:20260721T190834Z
+UID:espn-401850706@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Colo Colo vs La Serena\nRival de Colo-Colo: La Serena
+ \nCompetencia: Chilean Primera División\nEstado: Scheduled\nEstadio: Esta
+ dio Monumental David Arellano\, Santiago\nTemporada: 2026\nMás informaci
+ ón: https://www.espn.com/soccer/match/_/gameId/401850706/la-serena-colo-c
+ olo\n\nCalendario actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio Monumental David Arellano\, Santiago
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850706/la-serena-colo-co
+ lo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Colo Colo vs La Serena comienza en una hora
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Cobresal vs Colo Colo
+DTSTART;TZID=America/Santiago:20261206T170000
+DTEND;TZID=America/Santiago:20261206T190000
+DTSTAMP:20260721T190834Z
+UID:espn-401850708@colo-colo-2026
+SEQUENCE:0
+DESCRIPTION:Partido: Cobresal vs Colo Colo\nRival de Colo-Colo: Cobresal\n
+ Competencia: Chilean Primera División\nEstado: Scheduled\nEstadio: Estadi
+ o El Cobre\, El Salvador\nTemporada: 2026\nMás información: https://www.
+ espn.com/soccer/match/_/gameId/401850708/colo-colo-cobresal\n\nCalendario 
+ actualizado automáticamente desde ESPN.
+LAST-MODIFIED:20260721T190834Z
+LOCATION:Estadio El Cobre\, El Salvador
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.espn.com/soccer/match/_/gameId/401850708/colo-colo-cobresa
+ l
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚽ Cobresal vs Colo Colo comienza en una hora
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
