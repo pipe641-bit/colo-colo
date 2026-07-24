@@ -10,7 +10,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Deportes Limache vs Colo Colo
 DTSTART;TZID=America/Santiago:20260131T120000
 DTEND;TZID=America/Santiago:20260131T140000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850418@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Deportes Limache vs Colo Colo\n🏁 Condición: V
@@ -20,7 +20,7 @@ DESCRIPTION:⚽ Partido: Deportes Limache vs Colo Colo\n🏁 Condición: V
  2026\n🔗 Más información: https://www.espn.com/soccer/match/_/gameId/4
  01850418/colo-colo-deportes-limache\n\nCalendario actualizado automáticam
  ente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Elías Figueroa Brander\, Valparaiso
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Everton CD
 DTSTART;TZID=America/Santiago:20260207T203000
 DTEND;TZID=America/Santiago:20260207T223000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850437@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Everton CD\n🏁 Condición: Local\n
@@ -52,7 +52,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Everton CD\n🏁 Condición: Local\n
  ntiago\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 M
  ás información: https://www.espn.com/soccer/match/_/gameId/401850437/eve
  rton-cd-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -75,7 +75,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Unión La Calera
 DTSTART;TZID=America/Santiago:20260215T203000
 DTEND;TZID=America/Santiago:20260215T223000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850445@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Unión La Calera\n🏁 Condición: L
@@ -85,7 +85,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Unión La Calera\n🏁 Condición: L
  026\n🔗 Más información: https://www.espn.com/soccer/match/_/gameId/40
  1850445/union-la-calera-colo-colo\n\nCalendario actualizado automáticamen
  te desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -108,7 +108,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ O'Higgins vs Colo Colo
 DTSTART;TZID=America/Santiago:20260221T180000
 DTEND;TZID=America/Santiago:20260221T200000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850467@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: O'Higgins vs Colo Colo\n🏁 Condición: Visita\n
@@ -117,7 +117,7 @@ DESCRIPTION:⚽ Partido: O'Higgins vs Colo Colo\n🏁 Condición: Visita\n
  ansmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Más información
  : https://www.espn.com/soccer/match/_/gameId/401850467/colo-colo-ohiggins\
  n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio El Teniente\, Rancagua
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -140,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Universidad de Chile
 DTSTART;TZID=America/Santiago:20260301T180000
 DTEND;TZID=America/Santiago:20260301T200000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850480@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Universidad de Chile\n🏁 Condició
@@ -150,7 +150,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Universidad de Chile\n🏁 Condició
  orada: 2026\n🔗 Más información: https://www.espn.com/soccer/match/_/g
  ameId/401850480/universidad-de-chile-colo-colo\n\nCalendario actualizado a
  utomáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -173,7 +173,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Audax Italiano vs Colo Colo
 DTSTART;TZID=America/Santiago:20260307T180000
 DTEND;TZID=America/Santiago:20260307T200000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850499@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Audax Italiano vs Colo Colo\n🏁 Condición: Vis
@@ -183,7 +183,7 @@ DESCRIPTION:⚽ Partido: Audax Italiano vs Colo Colo\n🏁 Condición: Vis
  🔗 Más información: https://www.espn.com/soccer/match/_/gameId/4018504
  99/colo-colo-audax-italiano\n\nCalendario actualizado automáticamente des
  de ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Municipal de La Florida\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -206,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Huachipato
 DTSTART;TZID=America/Santiago:20260316T203000
 DTEND;TZID=America/Santiago:20260316T223000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850516@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Huachipato\n🏁 Condición: Local\n
@@ -215,7 +215,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Huachipato\n🏁 Condición: Local\n
  ntiago\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 M
  ás información: https://www.espn.com/soccer/match/_/gameId/401850516/hua
  chipato-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -238,7 +238,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Deportes Concepcion vs Colo Colo
 DTSTART;TZID=America/Santiago:20260405T153000
 DTEND;TZID=America/Santiago:20260405T173000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850537@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Deportes Concepcion vs Colo Colo\n🏁 Condición
@@ -248,7 +248,7 @@ DESCRIPTION:⚽ Partido: Deportes Concepcion vs Colo Colo\n🏁 Condición
  ar\n🗓️ Temporada: 2026\n🔗 Más información: https://www.espn.com/
  soccer/match/_/gameId/401850537/colo-colo-deportes-concepcion\n\nCalendari
  o actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo\, Concepción
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -271,7 +271,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Palestino
 DTSTART;TZID=America/Santiago:20260419T183000
 DTEND;TZID=America/Santiago:20260419T203000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850549@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Palestino\n🏁 Condición: Local\n
@@ -280,7 +280,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Palestino\n🏁 Condición: Local\n
  tiago\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Má
  s información: https://www.espn.com/soccer/match/_/gameId/401850549/pales
  tino-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -303,7 +303,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Universidad de Concepción vs Colo Colo
 DTSTART;TZID=America/Santiago:20260426T150000
 DTEND;TZID=America/Santiago:20260426T170000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850558@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Universidad de Concepción vs Colo Colo\n🏁 Con
@@ -313,7 +313,7 @@ DESCRIPTION:⚽ Partido: Universidad de Concepción vs Colo Colo\n🏁 Con
  n: Por confirmar\n🗓️ Temporada: 2026\n🔗 Más información: https:/
  /www.espn.com/soccer/match/_/gameId/401850558/colo-colo-universidad-de-con
  cepcion\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo\, Concepción
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -338,7 +338,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Coquimbo Unido
 DTSTART;TZID=America/Santiago:20260503T173000
 DTEND;TZID=America/Santiago:20260503T193000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850545@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Coquimbo Unido\n🏁 Condición: Loc
@@ -348,7 +348,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Coquimbo Unido\n🏁 Condición: Loc
  n🔗 Más información: https://www.espn.com/soccer/match/_/gameId/401850
  545/coquimbo-unido-colo-colo\n\nCalendario actualizado automáticamente de
  sde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -371,7 +371,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Ñublense
 DTSTART;TZID=America/Santiago:20260517T173000
 DTEND;TZID=America/Santiago:20260517T193000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850565@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Ñublense\n🏁 Condición: Local\n
@@ -380,7 +380,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Ñublense\n🏁 Condición: Local\n
  tiago\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Má
  s información: https://www.espn.com/soccer/match/_/gameId/401850565/nuble
  nse-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -403,7 +403,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Universidad Católica vs Colo Colo
 DTSTART;TZID=America/Santiago:20260524T180000
 DTEND;TZID=America/Santiago:20260524T200000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850579@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Universidad Católica vs Colo Colo\n🏁 Condici
@@ -413,7 +413,7 @@ DESCRIPTION:⚽ Partido: Universidad Católica vs Colo Colo\n🏁 Condici
  mporada: 2026\n🔗 Más información: https://www.espn.com/soccer/match/_
  /gameId/401850579/colo-colo-universidad-catolica\n\nCalendario actualizado
   automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio San Carlos de Apoquindo\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -436,7 +436,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ La Serena vs Colo Colo
 DTSTART;TZID=America/Santiago:20260530T150000
 DTEND;TZID=America/Santiago:20260530T170000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850586@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: La Serena vs Colo Colo\n🏁 Condición: Visita\n
@@ -445,7 +445,7 @@ DESCRIPTION:⚽ Partido: La Serena vs Colo Colo\n🏁 Condición: Visita\n
  Por confirmar\n🗓️ Temporada: 2026\n🔗 Más información: https://ww
  w.espn.com/soccer/match/_/gameId/401850586/colo-colo-la-serena\n\nCalendar
  io actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio La Portada
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -468,7 +468,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Cobresal
 DTSTART;TZID=America/Santiago:20260613T173000
 DTEND;TZID=America/Santiago:20260613T193000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850589@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Cobresal\n🏁 Condición: Local\n
@@ -477,7 +477,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Cobresal\n🏁 Condición: Local\n
  iago\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Más
   información: https://www.espn.com/soccer/match/_/gameId/401850589/cobres
  al-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -500,7 +500,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Deportes Recoleta vs Colo Colo
 DTSTART;TZID=America/Santiago:20260620T173000
 DTEND;TZID=America/Santiago:20260620T193000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401871820@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Deportes Recoleta vs Colo Colo\n🏁 Condición: 
@@ -510,7 +510,7 @@ DESCRIPTION:⚽ Partido: Deportes Recoleta vs Colo Colo\n🏁 Condición:
  da: 2026\n🔗 Más información: https://www.espn.com/soccer/match/_/game
  Id/401871820/colo-colo-deportes-recoleta\n\nCalendario actualizado automá
  ticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Santa Laura-Universidad SEK\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -533,7 +533,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs O'Higgins
 DTSTART;TZID=America/Santiago:20260625T193000
 DTEND;TZID=America/Santiago:20260625T213000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401871857@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs O'Higgins\n🏁 Condición: Local\n
@@ -542,7 +542,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs O'Higgins\n🏁 Condición: Local\n
  tiago\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Má
  s información: https://www.espn.com/soccer/match/_/gameId/401871857/ohigg
  ins-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -565,7 +565,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Unión Española vs Colo Colo
 DTSTART;TZID=America/Santiago:20260629T193000
 DTEND;TZID=America/Santiago:20260629T213000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401871874@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Unión Española vs Colo Colo\n🏁 Condición: V
@@ -575,7 +575,7 @@ DESCRIPTION:⚽ Partido: Unión Española vs Colo Colo\n🏁 Condición: V
  : 2026\n🔗 Más información: https://www.espn.com/soccer/match/_/gameId
  /401871874/colo-colo-union-espanola\n\nCalendario actualizado automáticam
  ente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Santa Laura-Universidad SEK\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -598,7 +598,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ O'Higgins vs Colo Colo
 DTSTART;TZID=America/Santiago:20260702T203000
 DTEND;TZID=America/Santiago:20260702T223000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401871882@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: O'Higgins vs Colo Colo\n🏁 Condición: Visita\n
@@ -607,7 +607,7 @@ DESCRIPTION:⚽ Partido: O'Higgins vs Colo Colo\n🏁 Condición: Visita\n
  ansmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Más información
  : https://www.espn.com/soccer/match/_/gameId/401871882/colo-colo-ohiggins\
  n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio El Teniente\, Rancagua
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -630,7 +630,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Deportes Recoleta
 DTSTART;TZID=America/Santiago:20260706T193000
 DTEND;TZID=America/Santiago:20260706T213000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401871897@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Deportes Recoleta\n🏁 Condición: 
@@ -640,7 +640,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Deportes Recoleta\n🏁 Condición:
   2026\n🔗 Más información: https://www.espn.com/soccer/match/_/gameId/
  401871897/deportes-recoleta-colo-colo\n\nCalendario actualizado automátic
  amente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -663,7 +663,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Deportes Limache
 DTSTART;TZID=America/Santiago:20260724T203000
 DTEND;TZID=America/Santiago:20260724T223000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850597@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Deportes Limache\n🏁 Condición: L
@@ -673,7 +673,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Deportes Limache\n🏁 Condición: L
  026\n🔗 Más información: https://www.espn.com/soccer/match/_/gameId/40
  1850597/deportes-limache-colo-colo\n\nCalendario actualizado automáticame
  nte desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -696,7 +696,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Everton CD vs Colo Colo
 DTSTART;TZID=America/Santiago:20260801T150000
 DTEND;TZID=America/Santiago:20260801T170000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850610@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Everton CD vs Colo Colo\n🏁 Condición: Visita\
@@ -705,7 +705,7 @@ DESCRIPTION:⚽ Partido: Everton CD vs Colo Colo\n🏁 Condición: Visita\
  📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Más infor
  mación: https://www.espn.com/soccer/match/_/gameId/401850610/colo-colo-ev
  erton-cd\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Sausalito\, Vina del Mar
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -728,7 +728,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Unión La Calera vs Colo Colo
 DTSTART;TZID=America/Santiago:20260809T173000
 DTEND;TZID=America/Santiago:20260809T193000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850619@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Unión La Calera vs Colo Colo\n🏁 Condición: V
@@ -738,7 +738,7 @@ DESCRIPTION:⚽ Partido: Unión La Calera vs Colo Colo\n🏁 Condición: V
  a: 2026\n🔗 Más información: https://www.espn.com/soccer/match/_/gameI
  d/401850619/colo-colo-union-la-calera\n\nCalendario actualizado automátic
  amente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Municipal Nicolás Chahuán\, La Calera
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -761,7 +761,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs O'Higgins
 DTSTART;TZID=America/Santiago:20260816T173000
 DTEND;TZID=America/Santiago:20260816T193000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850621@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs O'Higgins\n🏁 Condición: Local\n
@@ -770,7 +770,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs O'Higgins\n🏁 Condición: Local\n
  tiago\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Má
  s información: https://www.espn.com/soccer/match/_/gameId/401850621/ohigg
  ins-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -793,7 +793,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Universidad de Chile vs Colo Colo
 DTSTART;TZID=America/Santiago:20260823T150000
 DTEND;TZID=America/Santiago:20260823T170000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850630@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Universidad de Chile vs Colo Colo\n🏁 Condició
@@ -803,7 +803,7 @@ DESCRIPTION:⚽ Partido: Universidad de Chile vs Colo Colo\n🏁 Condició
  🗓️ Temporada: 2026\n🔗 Más información: https://www.espn.com/socc
  er/match/_/gameId/401850630/colo-colo-universidad-de-chile\n\nCalendario a
  ctualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Nacional Julio Martínez Prádanos\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -826,7 +826,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Unión Española
 DTSTART;TZID=America/Santiago:20260826T203000
 DTEND;TZID=America/Santiago:20260826T223000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401881694@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Unión Española\n🏁 Condición: L
@@ -836,7 +836,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Unión Española\n🏁 Condición: L
  026\n🔗 Más información: https://www.espn.com/soccer/match/_/gameId/40
  1881694/union-espanola-colo-colo\n\nCalendario actualizado automáticament
  e desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -859,7 +859,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Audax Italiano
 DTSTART;TZID=America/Santiago:20260830T173000
 DTEND;TZID=America/Santiago:20260830T193000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850642@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Audax Italiano\n🏁 Condición: Loc
@@ -869,7 +869,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Audax Italiano\n🏁 Condición: Loc
  n🔗 Más información: https://www.espn.com/soccer/match/_/gameId/401850
  642/audax-italiano-colo-colo\n\nCalendario actualizado automáticamente de
  sde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -892,7 +892,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Huachipato vs Colo Colo
 DTSTART;TZID=America/Santiago:20260906T170000
 DTEND;TZID=America/Santiago:20260906T190000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850650@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Huachipato vs Colo Colo\n🏁 Condición: Visita\
@@ -902,7 +902,7 @@ DESCRIPTION:⚽ Partido: Huachipato vs Colo Colo\n🏁 Condición: Visita\
  ada: 2026\n🔗 Más información: https://www.espn.com/soccer/match/_/gam
  eId/401850650/colo-colo-huachipato\n\nCalendario actualizado automáticame
  nte desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo\, Concepción
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -925,7 +925,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Deportes Concepcion
 DTSTART;TZID=America/Santiago:20260913T173000
 DTEND;TZID=America/Santiago:20260913T193000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850657@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Deportes Concepcion\n🏁 Condición
@@ -935,7 +935,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Deportes Concepcion\n🏁 Condición
  ada: 2026\n🔗 Más información: https://www.espn.com/soccer/match/_/gam
  eId/401850657/deportes-concepcion-colo-colo\n\nCalendario actualizado auto
  máticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -958,7 +958,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Coquimbo Unido vs Colo Colo
 DTSTART;TZID=America/Santiago:20261011T150000
 DTEND;TZID=America/Santiago:20261011T170000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850661@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Coquimbo Unido vs Colo Colo\n🏁 Condición: Vis
@@ -968,7 +968,7 @@ DESCRIPTION:⚽ Partido: Coquimbo Unido vs Colo Colo\n🏁 Condición: Vis
  26\n🔗 Más información: https://www.espn.com/soccer/match/_/gameId/401
  850661/colo-colo-coquimbo-unido\n\nCalendario actualizado automáticamente
   desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Francisco Sánchez Rumoroso\, Coquimbo
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -991,7 +991,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Palestino vs Colo Colo
 DTSTART;TZID=America/Santiago:20261025T150000
 DTEND;TZID=America/Santiago:20261025T170000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850672@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Palestino vs Colo Colo\n🏁 Condición: Visita\n
@@ -1000,7 +1000,7 @@ DESCRIPTION:⚽ Partido: Palestino vs Colo Colo\n🏁 Condición: Visita\n
  iago\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Más
   información: https://www.espn.com/soccer/match/_/gameId/401850672/colo-c
  olo-palestino\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Municipal de La Cisterna\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1023,7 +1023,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Universidad de Concepción
 DTSTART;TZID=America/Santiago:20261101T170000
 DTEND;TZID=America/Santiago:20261101T190000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850681@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Universidad de Concepción\n🏁 Con
@@ -1033,7 +1033,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Universidad de Concepción\n🏁 Con
  🗓️ Temporada: 2026\n🔗 Más información: https://www.espn.com/socc
  er/match/_/gameId/401850681/universidad-de-concepcion-colo-colo\n\nCalenda
  rio actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1058,7 +1058,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Ñublense vs Colo Colo
 DTSTART;TZID=America/Santiago:20261108T170000
 DTEND;TZID=America/Santiago:20261108T190000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850691@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Ñublense vs Colo Colo\n🏁 Condición: Visita\n
@@ -1067,7 +1067,7 @@ DESCRIPTION:⚽ Partido: Ñublense vs Colo Colo\n🏁 Condición: Visita\n
  llán\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Má
  s información: https://www.espn.com/soccer/match/_/gameId/401850691/colo-
  colo-nublense\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Municipal Oyarzún Arenas\, Chillán
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1090,7 +1090,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs Universidad Católica
 DTSTART;TZID=America/Santiago:20261122T170000
 DTEND;TZID=America/Santiago:20261122T190000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850693@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs Universidad Católica\n🏁 Condici
@@ -1100,7 +1100,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs Universidad Católica\n🏁 Condici
  emporada: 2026\n🔗 Más información: https://www.espn.com/soccer/match/
  _/gameId/401850693/universidad-catolica-colo-colo\n\nCalendario actualizad
  o automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1123,7 +1123,7 @@ BEGIN:VEVENT
 SUMMARY:🏠 Colo Colo vs La Serena
 DTSTART;TZID=America/Santiago:20261129T170000
 DTEND;TZID=America/Santiago:20261129T190000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850706@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Colo Colo vs La Serena\n🏁 Condición: Local\n
@@ -1132,7 +1132,7 @@ DESCRIPTION:⚽ Partido: Colo Colo vs La Serena\n🏁 Condición: Local\n
  tiago\n📺 Transmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Má
  s información: https://www.espn.com/soccer/match/_/gameId/401850706/la-se
  rena-colo-colo\n\nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio Monumental David Arellano\, Santiago
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1155,7 +1155,7 @@ BEGIN:VEVENT
 SUMMARY:✈️ Cobresal vs Colo Colo
 DTSTART;TZID=America/Santiago:20261206T170000
 DTEND;TZID=America/Santiago:20261206T190000
-DTSTAMP:20260723T160752Z
+DTSTAMP:20260724T151858Z
 UID:espn-401850708@colo-colo-2026
 SEQUENCE:0
 DESCRIPTION:⚽ Partido: Cobresal vs Colo Colo\n🏁 Condición: Visita\n
@@ -1164,7 +1164,7 @@ DESCRIPTION:⚽ Partido: Cobresal vs Colo Colo\n🏁 Condición: Visita\n
  nsmisión: Por confirmar\n🗓️ Temporada: 2026\n🔗 Más información:
   https://www.espn.com/soccer/match/_/gameId/401850708/colo-colo-cobresal\n
  \nCalendario actualizado automáticamente desde ESPN.
-LAST-MODIFIED:20260723T160752Z
+LAST-MODIFIED:20260724T151858Z
 LOCATION:Estadio El Cobre\, El Salvador
 STATUS:CONFIRMED
 TRANSP:OPAQUE
